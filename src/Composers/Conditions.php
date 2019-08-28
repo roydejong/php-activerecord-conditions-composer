@@ -61,16 +61,16 @@ class Conditions
     }
 
     /**
-     * Returns the "conditions" value array, or NULL if the expression is empty.
+     * Returns the "conditions" value array.
      *
-     * @return array|null
+     * @return array Array with statement text and parameters, or empty array if no conditions were added.
      */
-    public function value(): ?array
+    public function value(): array
     {
         $statement = $this->queryText;
 
         if (empty($statement)) {
-            return null;
+            return [];
         }
 
         if ($this->openGroup) {

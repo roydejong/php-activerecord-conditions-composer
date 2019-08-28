@@ -70,14 +70,14 @@ class ConditionsTest extends TestCase
             "Conditions::make() should result in a new, blank, Conditions object");
 
         $expectedEntry = [
-            'conditions' => null
+            'conditions' => []
         ];
 
         $this->assertSame($expectedEntry, $conditions->entry(),
-            'If nothing was set, $conditions->entry() should result in a valid array with a NULL value');
+            'If nothing was set, $conditions->entry() should result in a valid array with empty conditions');
 
-        $this->assertNull($conditions->value(),
-            'If nothing was set, $conditions->value() should be NULL');
+        $this->assertSame([], $conditions->value(),
+            'If nothing was set, $conditions->value() should be empty array');
     }
 
     public function testParamCountException()
