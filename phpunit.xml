@@ -3,6 +3,7 @@
         beStrictAboutOutputDuringTests="true"
         beStrictAboutChangesToGlobalState="true"
         beStrictAboutTestsThatDoNotTestAnything="true"
+        bootstrap="vendor/autoload.php"
         defaultTestSuite="all">
     <testsuites>
         <testsuite name="all">
