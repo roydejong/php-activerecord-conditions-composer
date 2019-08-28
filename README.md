@@ -1,6 +1,10 @@
 # ✍ `php-activerecord-utils`
 **Simple utilities that make writing `php-activerecord` queries more convenient.**
 
+[![Latest Stable Version](https://poser.pugx.org/roydejong/php-activerecord-utils/v/stable)](https://packagist.org/packages/roydejong/php-activerecord-utils)
+[![Build Status](https://travis-ci.org/roydejong/php-activerecord-utils.svg?branch=master)](https://travis-ci.org/roydejong/php-activerecord-utils)
+[![License](https://poser.pugx.org/roydejong/php-activerecord-utils/license)](https://packagist.org/packages/roydejong/php-activerecord-utils)
+
 ## Getting started
 Add this library as a [Composer](https://getcomposer.org/) dependency:
 
