@@ -1,0 +1,22 @@
+{
+  "name": "roydejong/php-activerecord-utils",
+  "description": "Utilities for composing queries in php-activerecord.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roy de Jong",
+      "email": "roy@softwarepunt.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ActiveRecordUtils\\": "src/",
+      "ActiveRecordUtils\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
